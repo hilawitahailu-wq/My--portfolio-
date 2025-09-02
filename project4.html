@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hilawit Assefa | Web Developer</title>
+</head>
+<style>
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: pink;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #fff;
+  color: pink;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Sections */
+.section {
+  padding: 60px 0;
+}
+
+.gray-bg {
+  background-color: #eee;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.skill {
+  background: pink;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Projects */
+.project-card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid pink;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+</style>
+
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">Hilawit Assefa</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Hello, I'm Hilawit 👋</h2>
+      <p>I'm a Frontend Developer specializing in building beautiful and responsive web applications.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a passionate frontend developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy transforming designs into responsive websites that provide great user experience.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section gray-bg">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Responsive Design</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>coffee order website</h3>
+        <p>A beautiful coffee order design with responsive layout.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section gray-bg">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: yourname@example.com</p>
+      <p>GitHub: <a href="#">github.com/yourusername</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/yourusername</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Hilawit Assefa. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
